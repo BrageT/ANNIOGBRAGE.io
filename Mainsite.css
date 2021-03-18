@@ -1,0 +1,113 @@
+
+#knapp{
+    background-color: #333;
+    position: relative;
+}
+
+#paragraf1{
+    position: relative;
+    font-size: 100px;
+    font-family: fantasy;
+    margin-left: 25%;
+    margin-right: 20%;
+   
+}
+#logo{
+    position: relative;
+}
+
+.logocontainer{
+position: relative;
+opacity: 0.95;
+margin-left: 20%;
+margin-right: 15%;
+margin-top: 10%;
+margin-bottom: -40%;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+  }
+
+.topnav figure{
+float: left;
+
+}  
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    position: relative;
+  }  
+.topnav a.active {
+    background-color: #3451b1;
+    color: white;
+    position: relative;
+  }  
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 16px;
+    font-size: 20px;
+    position: relative;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    
+  } 
+
+  .Velglokasjon{
+      position: relative;
+
+  }
+
+  #Bakgrund{
+background-color: ivory;
+opacity: 0.40;
+  }
+  main {
+    background: white;
+    position: relative;
+    padding: 1rem;
+    margin-top: 100vh;
+    &::before {
+      content: "";
+      @include coverer;
+      top: -100vh;
+    }
+
+    @mixin coverer {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+ 
+#footer1 {
+      background-color: ivory;
+      position: relative;
+    }
+
+html, body {
+  margin: 0%;
+  padding: 0%;
+}    
