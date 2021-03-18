@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title></title>
+
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Mainsite.css">
+
+       
+
+    </head>
+
+    <body>
+        <div id="Bakgrund">
+        <video autoplay muted loop id="myVideo">
+            <source src="Video og bilder/Min film - Liten.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="topnav">
+            <figure id="logo">
+                <img src="Video og bilder/Asset 1.png" style="width: 100px;">
+            </figure> 
+            <a class="active"href="">Hjem</a>
+            <a href="">Merch</a>
+            <a href="">Kontakt oss</a>
+            <a href="">Om Oss</a>
+            <input type="text" placeholder="Search..">
+          </div>
+
+         <div class="logocontainer">
+            <figure id="logo">
+                <img src="Video og bilder/Asset 1.png" style="width: 1000px;">
+            </figure> 
+        </div>
+
+    <div class="Velglokasjon">
+     <main> 
+        <p id="paragraf1">Velg din lokasjon</p>
+
+    
+        <button type="button" id="knapp" style="width: 100px; height: 100px;">OSLO</button>
+        <button type="button" id="knapp" style="width: 100px; height: 100px;">BERGEN</button>
+        <button type="button" id="knapp" style="width: 100px; height: 100px;">STAVANGER</button>
+        <button type="button" id="knapp" style="width: 100px; height: 100px;">TROMSØ</button>
+        <button type="button" id="knapp" style="width: 100px; height: 100px;">TRONDHEIM</button>
+        <script>
+
+            var paragraf1 = document.getElementById("paragraf1");
+
+            var overskrift1 = document.getElementById("overskrift1");
+
+            var bilde = document.getElementById("bilde");
+
+            var knapp = document.getElementById("knapp");
+
+            knapp.onclick = knappFunksjon;
+
+        </script>
+        </main> 
+        </div>
+
+    </body>
+
+</html>
