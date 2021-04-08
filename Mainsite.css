@@ -1,13 +1,11 @@
-
-#knapp{
-    background-color: #333;
-    position: relative;
-}
+body {
+  margin: 0 auto;
+}    
 
 #paragraf1{
     position: relative;
     font-size: 100px;
-    font-family: fantasy;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 25%;
     margin-right: 20%;
    
@@ -26,9 +24,9 @@ margin-bottom: -40%;
 }
 
 .topnav {
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
-    position: relative;
+    position: static;
   }
 .topnav a {
     float: left;
@@ -51,8 +49,8 @@ float: left;
     position: relative;
   }  
 .topnav a.active {
-    background-color: #3451b1;
-    color: white;
+    background-color: rgb(250, 163, 11);
+    color: black;
     position: relative;
   }  
   .topnav input[type=text] {
@@ -64,7 +62,14 @@ float: left;
     font-size: 20px;
     position: relative;
   }
+  .footer1 {
+    background-color: #333;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 
+    
+  }
   #myVideo {
     position: fixed;
     right: 0;
@@ -83,31 +88,32 @@ float: left;
 background-color: ivory;
 opacity: 0.40;
   }
+
   main {
     background: white;
     position: relative;
     padding: 1rem;
     margin-top: 100vh;
-    &::before {
-      content: "";
-      @include coverer;
-      top: -100vh;
+    padding-bottom: 27%;
     }
+.Lokasjoner{
+  margin: auto;
+  width: 52%;
+  padding: 10px;
+}
 
-    @mixin coverer {
-      width: 100vw;
-      height: 100vh;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
+.Lokasjoner a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+
+   
  
-#footer1 {
-      background-color: ivory;
-      position: relative;
-    }
 
-html, body {
-  margin: 0%;
-  padding: 0%;
-}    
+
